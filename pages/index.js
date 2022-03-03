@@ -23,7 +23,7 @@ export default function Home() {
           <GalleryCard
             href="https://midilab.netlify.app/"
             title="MIDI Lab"
-            children="Final project for CS630. A web app that allows users to visualize music but... vaporwave."
+            children="Final project for CS630. A web app that allows users to visualize music but... vaporwave. I've preloaded quite a few tracks and you can upload your own."
           />
           <GalleryCard
             href="https://github.com/ClaireBookworm/30daychartchallenge"
