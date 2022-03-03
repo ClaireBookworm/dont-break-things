@@ -14,10 +14,10 @@ const links = [
 
 export default function Nav({active}) {
     useEffect(() => {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        // if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
             document.body.style.backgroundColor = colors[~~(Math.random() * colors.length)];
             document.querySelector("#theme_toggle").classList.toggle("rotate-180");
-          }
+        //   }
         window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
             const newColorScheme = e.matches ? "light" : "dark";
             if (newColorScheme === "dark") {
@@ -29,7 +29,7 @@ export default function Nav({active}) {
                 document.querySelector("#theme_toggle").classList.toggle("rotate-180");
             }
         });
-        console.log('Made by Claire Wang & Sarthak Mohanty. All Rights Reserved.')
+        console.log('Made by Claire Wangy. All Rights Reserved.')
     })
     return (
         <nav className="text-white">

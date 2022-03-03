@@ -14,7 +14,7 @@ export default function Home() {
           </div>
         </section>
         <section className="mt-8 md:mt-16 w-2/3 lg:w-1/2 md:text-xl">
-          claire wang's work for cs six-thirty: data visualization in winter term. this was a series of fun rabbit holes, frustration, new color schemes, and a love-hate relationship with javascript.
+          claire wang's work for cs six-thirty: data visualization in winter term. this was a series of fun rabbit holes, frustration, new color schemes, and a love-hate relationship with javascript. (turn off dark mode at the top for some cool colors)
         </section>
       </main>
       <Layout active="Gallery">
